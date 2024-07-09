@@ -1,4 +1,4 @@
-{ buildGoModule, fetchFromGitHub, lib, stdenv }:
+{ buildGoModule, fetchFromGitHub, lib, ... }:
 
 buildGoModule rec {
   pname = "shcopy";
